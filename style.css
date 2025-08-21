@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* .logo{
+  
+} */
+.sidebar{
+  background-color: rgb(255, 0, 0);
+  width: 10vw;
+  height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+  /* font-family: "Source Code Pro", monospace; */
+}
+.sidebar nav{
+  padding: 45px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+.sidebar nav li{
+  list-style: none;
+  font-size: 20px;
+  padding: 32px;
+
+}
+.main{
+  /* background-color: yellow; */
+  width: 90vw;
+}
+.container{
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+}
+.infoContainer{
+  /* background-color: rgb(0, 0, 0); */
+  height: 78vh;
+  width: 80vw;
+  margin: 147px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.info{
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* font-family: "Source Code Pro", monospace; */
+}
+
+.info{
+  font-size: 60px;
+}
+.about{
+  font-size: 35px;
+}
+.moreabout{
+  font-size: 21px;
+}
+.buttons button{
+
+}
+
+
+.pic img{
+  height: 78vh;
+}
